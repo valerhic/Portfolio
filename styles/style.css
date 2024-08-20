@@ -1,9 +1,55 @@
 html {
-
+scroll-behavior: smooth;
 }
+.logo {
+    min-width:109px;
+    font-size: 42.41px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: left;
+    color: #1BFF07;
+
+    display: block;
+    text-align: center;
+    background-color: #191C19;
+    border-radius: 30px;
+    width: 140px;
+    height: 55px;
+}
+.nav-section {
+    display: flex;
+    align-items: center;
+    width: 1151.35px;
+    height: 25.18px;
+    margin-top: 36px;
+}
+.nav {
+    display: flex;
+    padding-left: 499px;
+    width: 100%;
+    justify-content: space-between;
+}   
+.nav-link {
+    width: 93px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #1BFF07;
+    text-decoration: underline;
+}
+
 body {
     font-family: 'IBM Plex Mono';
     background-color: #000000;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1180px;
 }
 
 .title-block {
@@ -13,13 +59,13 @@ body {
     height: 765px;
 }
 .title-text {
-    width: 430px;
+    width: 444px;
     height: 103px;
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
     color: #FFFFFF;
-    padding: 334px 845px 29px 125px;
+    padding: 252px 845px 29px 0px;
 }
 h1 {
     width: 919px;
@@ -28,7 +74,7 @@ h1 {
     font-weight: 400;
     line-height: 70px;
     color: #1BFF07;
-    padding: 29px 362px 94px 119px;
+    padding: 29px 362px 94px 0px;
 }
 
 .project-block {
@@ -115,7 +161,7 @@ h1 {
     line-height: 71.5px;
     color: #FFFFFF;
 }
-img {
+.photo-competencies {
     margin-top: 48px;
     margin-bottom: 12px;
 }
@@ -133,7 +179,7 @@ img {
     margin-bottom: 15px;
 } 
 .text {
-    width: 778px;
+    width: 819px;
     min-height: 100px;
     font-family: IBM Plex Mono;
     font-size: 22px;
@@ -152,4 +198,110 @@ img {
 .adaptive-layout {
     width: 778px;
     height: 252px;
+}
+
+.tasks-block {
+    width: 100%;
+    height: 1976px;
+}
+.tasks {
+    width: 420px;
+    height: 92px;
+    font-family: IBM Plex Mono;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    color: #FFFFFF;
+    margin-top: 150px;
+}
+.photo-tasks {
+    margin-top: 74px;
+}
+.info-tasks {
+    background-color: #191C19;
+    border-radius: 30px;
+    width: 1150px;
+    height: 283px;
+}
+.title-tasks {
+    width: 1056px;
+    height: 72px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 71.5px;
+    color: #1BFF07;
+    padding: 40px 62px 15px 40px;
+}
+.text-tasks {
+    width: 753px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.6px;
+    color: #FFFFFF;
+    padding: 0px 361px 40px 40px;
+    word-break: normal;
+    margin-bottom: 114px;
+}
+.connection {
+    background-color: #191C19;
+    border-radius: 30px;
+    width: 100%;
+    height: 717px;  
+    position: relative;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    left: 125px;
+    bottom: 89px;
+}
+.for-communication {
+    width: 210px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #FFFFFF;
+
+}
+.insta {
+    width: 310px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px; 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.insta:hover {
+    color: #1BFF07;
+    display: block;
+}
+.telega:hover{
+    color: #1BFF07;
+    display: block;
+}
+.mail:hover{
+    color: #1BFF07;
+    display: block;
+}
+.telega {
+    width: 276px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px; 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.mail {
+    width: 139px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-end
 }
